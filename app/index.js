@@ -1,6 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import * as PropTypes from 'prop-types'
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 const PlayerAPI = {
@@ -80,8 +79,6 @@ const Main = () => (
   </main>
 );
 
-// The Header creates links that can be used to navigate
-// between routes.
 const Header = () => (
   <header>
     <nav>
